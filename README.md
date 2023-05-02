@@ -14,20 +14,30 @@ Dataset download link :
 * [CLCD-CD_A2B_B2A](https://drive.google.com/file/d/1Q9COBNxg7r5PhgNzY60GTugotbS8AzUg/view?usp=sharing)
 
 ```angular2html
-[Your Pascal Path]
-  ├── LEVIR-CD
-      ├── val
-      ├── test
-      └── train
-          ├── A
-          ├── B
-          └── label
-  ├── LEVIR-CD_A2B_B2A
-      └── train
-          ├── A
-          └── B
-  ├── CLCD-CD
-  └── CLCD-CD_A2B_B2A
+CDRL-SA
+    └──datasets
+        ├── LEVIR-CD
+            ├── val
+            ├── test
+            └── train
+                ├── A
+                ├── B
+                └── label
+        ├── LEVIR-CD_A2B_B2A
+            └── train
+                ├── A
+                └── B
+        ├── CLCD-CD
+        └── CLCD-CD_A2B_B2A
 ```
 
+## Train
+```bash
+python main.py
+```
+
+## Eval
+```bash
+python test.py
+```
 
