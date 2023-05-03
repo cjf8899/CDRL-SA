@@ -19,6 +19,9 @@ Dataset download link :
 * [CLCD-CD](https://drive.google.com/file/d/1F4RfWSvoghmIrir_2YlBYfgrJt-flzY8/view?usp=sharing)
 * [CLCD-CD_A2B_B2A](https://drive.google.com/file/d/1Q9COBNxg7r5PhgNzY60GTugotbS8AzUg/view?usp=sharing)
 
+SAM download link : 
+* [SAM weight](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)
+
 ```angular2html
 CDRL-SA
     └──datasets
@@ -35,6 +38,9 @@ CDRL-SA
                 └── B
         ├── CLCD-CD
         └── CLCD-CD_A2B_B2A
+    └──pretrain_weight
+        └── sam_vit_h_4b8939.pth
+        
 ```
 
 ## Train
@@ -42,8 +48,12 @@ CDRL-SA
 python main.py --root_path ./datasets/ --dataset_name LEVIR-CD --save_name levir
 ```
 
-## Eval
+## CDRL Difference Map Generate
 ```bash
 python test.py --root_path ./datasets/ --dataset_name LEVIR-CD --save_name levir
 ```
 
+## CDRL-SA Refine Map Generate
+```bash
+python test_sam.py --root_path ./datasets/ --dataset_name LEVIR-CD --save_name levir
+```
