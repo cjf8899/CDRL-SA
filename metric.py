@@ -118,18 +118,7 @@ def cm2score(confusion_matrix):
     # ---------------------------------------------------------------------- #
     # 2. Frequency weighted Accuracy & Mean IoU
     # ---------------------------------------------------------------------- #
-    
-    aaa = sum_a1 + hist.sum(axis=0) - tp + np.finfo(np.float32).eps
-    aaa = np.sum(aaa[1:])
-    bbb= []
-    for i in tp[1:]:
-        bbb.append(round(i/aaa*100,1))
-        
-    print()
-    print(str(bbb[0])+'&'+str(bbb[1])+'&'+str(bbb[2])+'&'+str(bbb[3])+'&'+\
-          str(bbb[4])+'&'+str(bbb[5])+'&'+str(bbb[6])+'&'+str(round(np.sum(np.array(bbb)),1)))
-    print()
-    
+
     iu = tp / (sum_a1 + hist.sum(axis=0) - tp + np.finfo(np.float32).eps)
     mean_iu = np.nanmean(iu)
 
