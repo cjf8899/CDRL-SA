@@ -5,7 +5,7 @@
 
 > [**Unsupervised Change Detection Based on Image Reconstruction Loss with Segment Anything**](-)
 > 
-> [Hyeoncheol Noh](https://scholar.google.co.kr/citations?user=XTmafQgAAAAJ&hl), [Jingi Ju](https://scholar.google.co.kr/citations?user=hlJYrqAAAAAJ&hl), Minwoo Kim, Yuhyun Kim, [Minseok Seo](https://scholar.google.co.kr/citations?user=pOygDIIAAAAJ&hl), [Dong-Geol Choi](https://scholar.google.co.kr/citations?user=1498JWoAAAAJ&hl)
+> [Hyeoncheol Noh](https://scholar.google.co.kr/citations?user=XTmafQgAAAAJ&hl), [Jingi Ju](https://scholar.google.co.kr/citations?user=hlJYrqAAAAAJ&hl), [Minwoo Kim](https://scholar.google.com/citations?user=c7el4JwAAAAJ), [Yuhyun Kim](), [Minseok Seo](https://scholar.google.co.kr/citations?user=pOygDIIAAAAJ&hl), [Dong-Geol Choi](https://scholar.google.co.kr/citations?user=1498JWoAAAAJ&hl)
 > 
 > *[arXiv](-)*
 > 
