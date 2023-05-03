@@ -84,7 +84,7 @@ class CDRL_Dataset_CutSwap(Dataset):
 
 class CDRL_Dataset_test(Dataset):
     def __init__(self, root_path=None, dataset=None, transforms=None):
-        self.total_path = os.path.join(root_path, dataset, 'train')
+        self.total_path = os.path.join(root_path, dataset, 'test')
         self.transforms = transforms
         self.files = sorted(glob.glob(self.total_path + "/A/*.*"))
         
@@ -105,9 +105,3 @@ class CDRL_Dataset_test(Dataset):
     def __len__(self):
         return len(self.files)
 
-
-    
-    
-    
-    
-    
