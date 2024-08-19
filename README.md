@@ -1,16 +1,13 @@
 # CDRL-SA
 
 ## Update Note
-* This repository will be completed on the date of the #### presentation.
+* (24.08.19) The paper has been accepted into Remote Sensing Letters(RSL).
 
-> [**Unsupervised Change Detection Based on Image Reconstruction Loss with Segment Anything**](-)
+> [**Unsupervised Change Detection Based on Image Reconstruction Loss with Segment Anything**](https://doi.org/10.1080/2150704X.2024.2388851)
 > 
-> [Hyeoncheol Noh](https://scholar.google.co.kr/citations?user=XTmafQgAAAAJ&hl), [Jingi Ju](https://scholar.google.co.kr/citations?user=hlJYrqAAAAAJ&hl), [Minwoo Kim](https://scholar.google.com/citations?user=c7el4JwAAAAJ), [Yuhyun Kim](), [Minseok Seo](https://scholar.google.co.kr/citations?user=pOygDIIAAAAJ&hl), [Dong-Geol Choi](https://scholar.google.co.kr/citations?user=1498JWoAAAAJ&hl)
+> [Hyeoncheol Noh](https://scholar.google.co.kr/citations?user=XTmafQgAAAAJ&hl), [Jingi Ju](https://scholar.google.co.kr/citations?user=hlJYrqAAAAAJ&hl), [Yuhyun Kim](), [Minwoo Kim](https://scholar.google.com/citations?user=c7el4JwAAAAJ), [Dong-Geol Choi](https://scholar.google.co.kr/citations?user=1498JWoAAAAJ&hl)
 > 
-> *[arXiv](-)*
-> 
-> *[Project Page](-)*
-
+> *[Remote Sensing Letters](https://doi.org/10.1080/2150704X.2024.2388851)*
 ## Getting Started
 
 Dataset download link : 
